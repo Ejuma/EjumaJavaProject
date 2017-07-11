@@ -11,10 +11,10 @@ import fr.epita.iamcore.datamodel.Identity;
 
 public class testIdentityDAO {
 	/**
-	 * @param args
-	 * @throws DaoSaveException 
-	 * @throws SQLException 
-	 * @throws DaoSearchException 
+	 * @param args takes in a argument
+	 * @throws DaoSaveException  in case of any error in the save operation 
+	 * @throws SQLException  in case there is a problem in the operation
+	 * @throws DaoSearchException  in case of any error in the search operation
 	 * 
 	 */
 

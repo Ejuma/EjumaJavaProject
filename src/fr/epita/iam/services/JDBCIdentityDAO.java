@@ -41,15 +41,15 @@ import fr.epita.iam.Exception.DaoUpdateException;
  *  dao.delete(new Identity(...);
  * </pre>
  * 
- * <b>warning</b> this class is dealing with database connections, so remember to
- * release it through the {@link #releaseResources()}
+ * 
  * 
  * @author Ejuma
  *
  */
 	
 public class JDBCIdentityDAO implements CommonDAO {
-
+	
+	
 	private Connection connection;
 	private String displayName;
 	private String email;
@@ -106,7 +106,7 @@ public class JDBCIdentityDAO implements CommonDAO {
 	/**
 	 * This is the save method,
 	 * @param identity is the identity to search
-	 * @throws SaveDAOException is thrown if there are errors in the process of saving 
+	 * @throws SaveDAOException @see fr.epita.iam.Exception.DaoSearchException this line is executed if the save operation was not successful
 	 * 
 	 */
 	@Override
@@ -160,7 +160,8 @@ public class JDBCIdentityDAO implements CommonDAO {
 	/**
 	 * This is the update method, it  works by searching through the database first before updating the required id
 	 * @param identity is the identity to be updated
-	 * @throws DAOUpdateException is run if there is any error during the saving
+	 * @throws DAOUpdateException @see /iam-core/src/fr/epita/iam/Exception/DaoUpdateException.java
+	 * it is run if there is any error during the saving
 	 * 
 	 */
 
@@ -189,6 +190,7 @@ public class JDBCIdentityDAO implements CommonDAO {
 			System.out.println(e.getMessage());
 
 		}
+	
 	}
 }
 

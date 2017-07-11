@@ -18,8 +18,11 @@ public interface CommonDAO {
 	
 /** 
  * 
+ * 
  * This class is a common dao for  create class in both fileidentityDAO and JDBCDAO
- * @throws DaoSaveException 
+ * @param identity is the identity to be searched and saved 
+ * @throws DaoSaveException This exception is thrown when there is an error in the save operation.
+ * I am using this exception instead of the java.util exception 
  * 
  */
 

@@ -1,4 +1,10 @@
 package fr.epita.iam.Exception;
+/**
+ * 
+ * @author Ejuma
+ * This exception is executed when the initialization is not successful
+ *
+ */
 
 public class DaoInitializeException  extends Exception{
 	private String displayname ;

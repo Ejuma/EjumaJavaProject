@@ -1,4 +1,11 @@
 package fr.epita.iam.Exception;
+/**
+ * 
+ * @author Ejuma
+ * This exception is executed when the search operation is not successful
+ * 
+ *
+ */
 
 public class DaoSearchException  extends Exception{
 	

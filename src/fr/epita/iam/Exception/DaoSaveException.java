@@ -4,6 +4,7 @@ package fr.epita.iam.Exception;
 /**
  * 
  * @author Ejuma
+ * This is executed when the save operation is not successful
  *
  */
 

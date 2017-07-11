@@ -1,7 +1,7 @@
-fr.epita.iam.datamodel
-fr.epita.iam.exceptions
-fr.epita.iam.launcher
+fr.epita.iam.Exception
 fr.epita.iam.services
-fr.epita.iam.tests.database
-fr.epita.iam.tests.datamodel
-fr.epita.iam.tests.services
+fr.epita.iam.test.database
+fr.epita.iamcore.datamodel
+fr.epita.iamcore.launcher
+fr.epita.iamtest.datamodel
+fr.iam.tests.services

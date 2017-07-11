@@ -17,8 +17,8 @@ import java.sql.SQLException;
 public class TestDatabase {
 
 	/**
-	 * @param args
-	 * @throws SQLException 
+	 * @param args String user and String pasword
+	 * @throws SQLException this is thrown in case of errors in the connection to the db 
 	 */
 	public static void main(String[] args) throws SQLException {
 		String connectionString = "jdbc:derby://localhost:1527/demo";

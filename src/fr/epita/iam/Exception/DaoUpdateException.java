@@ -1,4 +1,9 @@
 package fr.epita.iam.Exception;
+/**
+ * 
+ * @author Ejuma
+ *This exception is executed when the update operation is not successful
+ */
 
 public class DaoUpdateException extends Exception{
 private Object faultObject;
